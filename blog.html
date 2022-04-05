@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="with-device-width, initial-scale=1.0">
+  <title>St Peters Academy</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/30952d98af.js" crossorigin="anonymous"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/download.png" alt=""></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Course.html">Course</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Testimonials and Online programs for 2022</h1>
+  </section>
+
+  <section class="blog-content">
+    <div class="row">
+      <div class="blog-left">
+        <img src="images\degree.jpg" alt="">
+        <h2>Our Testimonials and Online programs for 2022</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</p>
+
+          <div class="comment-box">
+            <h3>Leave a Comment</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="Enter a Name">
+              <input type="email" placeholder="Enter email">
+              <textarea rows="8" placeholder="Leave a comment"></textarea>
+              <button type="submit" class="intro-btn red-btn">POST COMMENT</button>
+            </form>
+          </div>
+
+
+      </div>
+      <div class="blog-right">
+        <img src="" alt="">
+        <h3>Categories</h3>
+        <div>
+          <span>Data science</span>
+          <span>21</span>
+        </div>
+        <div>
+          <span>Business</span>
+          <span>30</span>
+        </div>
+        <div>
+          <span>Bio Technology</span>
+          <span>40</span>
+        </div>
+        <div>
+          <span>Artificial Intelligence</span>
+          <span>25</span>
+        </div>
+        <div>
+          <span>Medical Science</span>
+          <span>15</span>
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt <br> ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+      <i class="fa fa-linkedin"></i>
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-twitter"></i>
+  </section>
+
+
+
+
+
+</body>
+<!-- javascript for toggle menu -->
+<script>
+  var navLinks = document.getElementById("navLinks");
+
+  function showMenu() {
+    navLinks.style.right = "0";
+  }
+
+  function hideMenu() {
+    navLinks.style.right = "-200px";
+  }
+</script>
+
+</html>
